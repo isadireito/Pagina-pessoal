@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0px;
+    
+}
+ 
+body{
+    background-color: #420001;
+}
+
+header{
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ebe6e0;
+    align-items: center;
+}
+
+header h1{
+    margin: 16px;
+    font-size: 50px;
+    color:#640001;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header nav a{
+    font-size:16px;
+    font-weight: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#640001;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+main{
+    color:#ebe6e0;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main div img{
+    border-radius: 50%;
+}
+
+main div{
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div p{
+    max-width: 600px;
+    padding-left: 22px;
+    padding-top:15px;
+}
+
+main hr{
+    border:none;
+    border-top: 2px solid #ebe6e0;
+    width: 90%;
+    height: 2px;
+    margin:  0 auto;
+}
+
+.hobbies{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #640001;
+}
+.hobbies h2{
+    padding-bottom: 4%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.hobbies ul{
+    display:flex;
+    justify-content:space-evenly;
+}
+.hobbies li{
+    list-style: none;
+}
+
+.hobbies p{
+    color:#ebe6e0;
+    font-size: 25px;
+    text-align: center;
+}
+
+.romances{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.romances  h2{
+    padding-bottom: 4%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.romances ol{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.romances li{
+    list-style-type: upper-roman;
+}
+.feedback{
+    background-color: #640001;
+    padding: 70px 0;
+}
+.feedback form{
+    max-width: 50%;
+    margin: 0 auto;
+    height: 500px;
+    background-color: #ebe6e0;
+    border-radius: 10px;
+    border:1px solid #640001;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#640001;
+}
+
+.feedback input{
+    margin-top: 2%;
+    width: 80%;
+    height: 7%;
+    background-color: #640001;
+    color:#ebe6e0;
+    font-size:1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:1px solid #ebe6e0;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.feedback form input::placeholder{
+    color:#ebe6e0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.feedback textarea{
+    margin-top: 2%;
+    width: 80%;
+    height: 50%;
+    background-color: #640001;
+    color:#ebe6e0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:1px solid #ebe6e0;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+
+}
+
+.feedback form textarea::placeholder{
+    color:#ebe6e0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.feedback form button{
+    width: 40%;
+    height: 7%;
+    margin-top: 15px;
+    background-color: #ebe6e0;
+    border-radius: 10px;
+    border: 1px solid #640001;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color:#640001;
+    font-size: 1.3rem;
+}
+
+footer{
+    display:flex;
+    height: 68px;
+    background-color: #ebe6e0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer nav{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+footer nav a{
+    text-decoration: none;
+    color:#640001;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
