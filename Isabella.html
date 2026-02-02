@@ -11,7 +11,25 @@
 <body>
 <header>
     <h1>Isabella Direito Labre Martins</h1>
-    <nav> <a href = "InIMC.html" > HOME</a> </nav>
+
+    <nav class ="menu"> 
+        <input type="checkbox" class= "hamburguer">
+        <div class="menu-lines">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul>
+            <li><a href = "#" > HOME</a> </li>
+            <li><a href = "#" >SOBRE MIM</a> </li>
+            <li><a href = "#" >FEEDBACKS</a> </li>
+        </ul>
+    </nav>
+    <nav class="principal">
+        <a href = "InIMC.html" > HOME</a>
+        <a href = "#" >SOBRE MIM</a>
+        <a href = "#" >FEEDBACKS</a>
+    </nav>
 </header>
 <main>
     <section class="about">
@@ -53,19 +71,28 @@
         <div class="romances">
             <h2>Top 5 melhores romances independentes</h2>
             <ol>
-                <li>
+                <li class="top1">
                     <img src="envenenados.jpg" width= "250px" height="300px" alt = "capa do livro envenenados da Bruna Pallazzo">
+                    <div class="top">
+                        <p>1</p>
+                    </div>
                 </li>
-                <li>
+                <li class="top1">
                     <img src="warofhearts.jpg" width= "250px" height="300px" alt = "capa do livro war of hearts">
+                    <div class="top">
+                        <p>2</p>
+                    </div>
                 </li>
-                <li>
+                <li class="top1">
                     <img src="nebulosos.jpg" width= "250px" height="300px" alt = "capa do livro nebulosos da Tay Ferreira">
+                    <div class="top">
+                        <p>3</p>
+                    </div>
                 </li>
-                <li>
+                <li class="top1">
                     <img src="modus.jpg" width= "250px" height="300px" alt = "capa do livro modus operandi da Leonor Carvalho">
                 </li>
-                <li>
+                <li class="top1">
                     <img src="tane.jpg" width= "250px" height="300px" alt = "capa do livro todas as nossas estrelas da Tatiane Biasi">
                 </li>
             </ol>
